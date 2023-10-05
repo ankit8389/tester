@@ -20,6 +20,8 @@ jobs:
       
     - name: Build website
       run: |
+        ls
+        pwd
         yarn install
         yarn build
         name: Deployment
