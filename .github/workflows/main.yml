@@ -23,9 +23,9 @@ jobs:
         ls
         pwd
         yarn info
+        yarn install
         yarn upgrade
         yarn add yarn
-        yarn install
         yarn run build
         name: Deployment
         jobs:
