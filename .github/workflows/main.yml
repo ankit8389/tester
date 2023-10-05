@@ -23,6 +23,7 @@ jobs:
         ls
         pwd
         yarn install
+        yarn run
         yarn build
         name: Deployment
         jobs:
