@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    name: Build and deploy
+    name: Build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -22,7 +22,7 @@ jobs:
         yarn run build
         name: Deployment
         jobs:
-  build:
+  Deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
